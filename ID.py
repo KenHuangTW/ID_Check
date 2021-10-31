@@ -3,8 +3,6 @@
 #      ，目前有過渡期的狀況，所以必須將兩種情況納入。
 # 備註2: 台灣舊式身分證字號已經被廢除，皆已全面換發
 
-import tkinter as tk  # 程式介面用
-
 
 def check_id_number(id_number):
     # 這邊就先判斷第一碼是否為大寫英文字母, 用str.istitle會出現錯誤
@@ -48,4 +46,4 @@ def check_id_number(id_number):
             else:
                 return "不符合"
     except Exception as e:  # 預防錯誤，但目前常犯的錯誤已經都先寫在上面了
-        print(e)
+        pass
