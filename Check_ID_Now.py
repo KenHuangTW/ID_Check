@@ -10,7 +10,7 @@ win.iconbitmap(r"C:\Users\wtf81\PycharmProjects\pythonProject\ID_Checker\nobody.
 win.config(bg="skyblue")  # 主視窗背景顏色
 
 # 根據輸入結果來判斷真偽
-
+54f6dsa465f4asd6f465
 
 def button_command():
     id_number = en_id.get()  # 取得輸入的資料
